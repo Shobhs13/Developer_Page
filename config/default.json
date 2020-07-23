@@ -1,6 +1,6 @@
 {
   "mongoURI": "mongodb://shobh13:shobh13@cluster0-shard-00-00.4wwcx.mongodb.net:27017,cluster0-shard-00-01.4wwcx.mongodb.net:27017,cluster0-shard-00-02.4wwcx.mongodb.net:27017/test?ssl=true&replicaSet=atlas-2zj6a4-shard-0&authSource=admin&retryWrites=true&w=majority",
   "jwtSecret": "mysecrettoken",
-  "githubClientId": " Iv1.3de50444c6f6e9e5",
-  "githubSecret": "156c2fc843df5d4de0ac261b592bc076a3ed35c2"
+  "githubClientId": "xxxxxxxxxxxxxxxxxxx",
+  "githubSecret": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 }
