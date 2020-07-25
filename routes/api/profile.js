@@ -326,24 +326,17 @@ router.delete("/education/:edu_id", auth, async (req, res) => {
   }
 });
 
-<<<<<<< HEAD
 // @route    Get api/profile/github/username
 // @desc     Get user repos from github
 // @access   Public
-=======
->>>>>>> 38e0478f34209b0b72da4d212d08078681c6cde1
 router.get("/github/:username", async (req, res) => {
   try {
     const options = {
       uri: `https://api.github.com/users/${
         req.params.username
-<<<<<<< HEAD
       }/repos?per_page=5&sort=created:asc&client_id=${config.get(
         "githubClientId"
       )}&client_secret=${config.get("githubSecret")}`,
-=======
-      }/repos?per_page=5&sort=created:asc`,
->>>>>>> 38e0478f34209b0b72da4d212d08078681c6cde1
       method: "GET",
       headers: { "user-agent": "node.js" },
     };
@@ -362,8 +355,4 @@ router.get("/github/:username", async (req, res) => {
     res.status(500).send("Server Error");
   }
 });
-<<<<<<< HEAD
-
-=======
->>>>>>> 38e0478f34209b0b72da4d212d08078681c6cde1
 module.exports = router;
